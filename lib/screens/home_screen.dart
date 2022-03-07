@@ -1,6 +1,5 @@
 import 'package:chopper/chopper.dart';
 import 'package:determine_name/models/built_names.dart';
-import 'package:determine_name/models/determine_name_model.dart';
 import 'package:determine_name/service/chopper_api_service.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
@@ -15,6 +14,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   late TextEditingController textEditingController;
   final _formKey = GlobalKey<FormState>();
+  // ignore: prefer_typing_uninitialized_variables
   var fetchApi;
   FocusNode? focusNode;
 
