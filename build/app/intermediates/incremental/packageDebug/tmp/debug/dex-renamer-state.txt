@@ -1,0 +1,4 @@
+#Mon Mar 07 01:22:30 EST 2022
+base.0=/media/ibrohim/3E26BC8626BC4127/Pet Projects/determine_name/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
